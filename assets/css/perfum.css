@@ -1,0 +1,38 @@
+@import url('style.css');
+.perfume__container {
+    position: relative;
+  }
+  
+  .perfume__content {
+    row-gap: 1.5rem;
+  }
+  
+  .perfume__data {
+    display: grid;
+    row-gap: .25rem;
+  }
+  
+  .perfume__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+  }
+  
+  .perfume__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+  }
+  
+  .perfume__subtitle {
+    font-size: var(--smaller-font-size);
+  }
+  
+  .perfume__data:nth-child(1), .perfume__data:nth-child(4) {
+    margin-left: 1.5rem;
+  }
+  
+  .perfume__img {
+    width: 250px;
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+  }
